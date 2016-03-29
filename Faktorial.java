@@ -25,7 +25,7 @@ public class Faktorial {
         for (int i = 0; i < baris; i++) {
             
             for (int j = baris; j > i; j--) {
-                System.out.print("0");
+                System.out.print(" ");
             }
             for (int j = 0; j <= i; j++) {
                 System.out.print("*");
@@ -34,14 +34,14 @@ public class Faktorial {
                 System.out.print("*");
             }
             for (int j = baris; j > i; j--) {
-                System.out.print("0");
+                System.out.print(" ");
             }
             System.out.println("");
         }
         for (int i = 0; i < baris; i++) {
             
             for (int j = 0; j <= i; j++) {
-                System.out.print("0");
+                System.out.print(" ");
             }
             for (int j = baris; j > i; j--) {
                 System.out.print("*");
@@ -50,7 +50,7 @@ public class Faktorial {
                 System.out.print("*");
             }
             for (int j = 0; j <= i; j++) {
-                System.out.print("0");
+                System.out.print(" ");
             }
             System.out.println("");
             
